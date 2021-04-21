@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.robertx22.disable_riptide.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EnchantmentHelperMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
