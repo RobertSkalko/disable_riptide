@@ -59,10 +59,6 @@ tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
 
-task sourcesJar(type: Jar, dependsOn: classes) {
-    classifier = "sources"
-    from sourceSets.main.allSource
-}
 
 jar {
     from "LICENSE"
